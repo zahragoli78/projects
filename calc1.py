@@ -17,7 +17,7 @@ if op == "+" or op == "-" or op == "*" or op == "/":
     a = float(input("please enter first number:"))
     b = float(input("plasee enter secound number:"))
 else :
-    a = float(input("please enter first number:"))
+    c = float(input("please enter number:"))
    
 if op ==  "sin" or op == "cos" or op == "cot" or op == "tan":
     ( n * math.pi / 180)   
