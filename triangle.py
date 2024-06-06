@@ -1,11 +1,11 @@
-wing1 = int(input())
-wing2 = int(input())
-wing3 = int(input())
-A = wing1 < wing2 + wing3
-B = wing2 < wing3 + wing1
-C = wing3 < wing1 + wing2
-print(A)
-print(B)
-print(C)
+side1 = float (input ("enter 1 : "))
+side2 = float (input ("enter 2 : "))
+side3 = float (input ("enter 3 : "))
+
+if side1 + side2 > side3 and side1 + side3 > side2 and side2 + side3 > side1:
+    print (" true")
+else :
+    print (" False")
+        
 
 
